@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#container{
+     display: block;
+} 
+.nav-bar{
+    height: 10vh;
+    width: 100%;
+    background-color:  white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+.logo{
+    font-size: 40px;
+}
+ul{
+    
+    background-color: rgb(252, 253, 253);
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 400px;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgba(52, 87, 95, 1);
+    font-weight: 700;
+}
+button{
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    padding: 10px 20px;
+    border:none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: #E1EBEE;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background: #E1EBEE;
+}
+.home-text{
+    padding: 10px;
+    margin-top: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    gap: 20px;
+    background-color: #F0F8FF;
+    border-radius: 20px;
+    color: #3E707B;
+    font-family: IM Fell Double Pica;
+    font-weight: 200;
+}
+
+#about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    
+}
+.hash-symbol{
+    width: 95%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 46% 0, 63% 100%, 0% 100%);
+    background-color: #D9D9D9;
+    height: 90vh;
+
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+.box-1{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box-2{
+    display:flex;
+    width: 40%;
+    background: #E1EBEE;
+    border-radius: 43px;
+    padding: 10px;
+    color: #3E707B;
+    font-family: IM FELL Great Primer;
+    font-weight: 400;
+    font-size: 32px;
+}
+#mywork{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top:60px;
+    width: 30%;
+
+}
+.image{
+    width:100%;
+}
+.badge-text {
+    padding: 2px 16px;
+}
